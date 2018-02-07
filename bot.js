@@ -23,6 +23,17 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+
+    if (message.content === 'Paul') {
+
+    	message.channel.send(':poop:');
+
+  	}
+
+});
+
+
 
 client.on('message', message => {
 
