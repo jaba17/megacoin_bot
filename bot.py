@@ -34,7 +34,7 @@ async def on_ready():
 
 async def on_message(message):
 
-    if message.content == "Paul":
+    if message.content == "Hans":
 
         await client.send_message(message.channel, ":poop:") #responds with Cookie emoji when someone says "cookie"
 
