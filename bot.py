@@ -1,28 +1,28 @@
-import discord
+#import discord
 
-from discord.ext.commands import Bot
+#from discord.ext.commands import Bot
 
-from discord.ext import commands
+#from discord.ext import commands
 
-import asyncio
+#import asyncio
 
-import time
-
-
-
-
-
-Client = discord.Client()
-
-client = commands.Bot(command_prefix = "!")
+#import time
 
 
 
 
 
-@client.event
+#Client = discord.Client()
 
-async def on_ready():
+#client = commands.Bot(command_prefix = "!")
+
+
+
+
+
+#@client.event
+
+#async def on_ready():
 
     print("Bot is online and connected to Discord")
 
@@ -30,23 +30,23 @@ async def on_ready():
 
 
 
-@client.event
+#@client.event
 
-async def on_message(message):
+#async def on_message(message):
 
-    if message.content == "Hans":
+ #   if message.content == "Hans":
 
-        await client.send_message(message.channel, ":poop:") #responds with Cookie emoji when someone says "cookie"
+ #       await client.send_message(message.channel, ":poop:") #responds with Cookie emoji when someone says "cookie"
 
-    if message.content.upper().startswith('!PING'):
+  #  if message.content.upper().startswith('!PING'):
 
-        userID = message.author.id
+   #     userID = message.author.id
 
-        await client.send_message(message.channel, "<@%s> Pong!" % (userID))
+    #    await client.send_message(message.channel, "<@%s> Pong!" % (userID))
 
-    if message.content.upper().startswith('!SAY'):
+   # if message.content.upper().startswith('!SAY'):
 
-        args = message.content.split(" ")
+    #    args = message.content.split(" ")
 
         #args[0] = !SAY
 
@@ -56,7 +56,7 @@ async def on_message(message):
 
         #args[1:] = Hey There
 
-        await client.send_message(message.channel, "%s" % (" ".join(args[1:])))
+     #   await client.send_message(message.channel, "%s" % (" ".join(args[1:])))
 
     
 
@@ -64,4 +64,4 @@ async def on_message(message):
 
 
 
-client.run(process.env.BOT_TOKEN) #Insert your bots token here
+#client.run(process.env.BOT_TOKEN) #Insert your bots token here*/
