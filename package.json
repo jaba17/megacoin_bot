@@ -10,7 +10,7 @@
 
   "scripts": {
 
-    "start": "node bot.py"
+    "start": "python bot.py"
 
   },
 
