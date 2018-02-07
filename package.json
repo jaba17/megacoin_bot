@@ -14,7 +14,7 @@
 
 
 
-  "main": "bot.js",
+  "main": "bot.py",
 
 
 
@@ -22,7 +22,7 @@
 
 
 
-    "start": "node bot.js"
+    "start": "python bot.py"
 
 
 
