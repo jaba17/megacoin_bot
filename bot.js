@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+var participantsNumber = 0;
 
 
 client.on('ready', () => {
@@ -38,6 +39,9 @@ client.on('message', message => {
     if (message.content === '!participate') {
         
     	message.channel.send('You participated successfull in this giveaway!');
+        message.channel.send(participantsNumber+'Participants');
+
+        participantsNumber
   	}
 });
 
