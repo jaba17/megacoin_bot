@@ -22,7 +22,7 @@
 
 
 
-    "start": "node bot.js"
+    "start": "python bot.py"
 
 
 
