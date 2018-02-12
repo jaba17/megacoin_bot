@@ -40,7 +40,7 @@ client.on('message', message => {
         
         
     	message.channel.send('You participated successfull in this giveaway!');
-        participantsNumber++;
+        participantsNumber = participantsNumber+1;
         message.channel.send(participantsNumber+'Participants');
 
         
