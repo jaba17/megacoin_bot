@@ -38,10 +38,12 @@ client.on('message', message => {
 
     if (message.content === '!participate') {
         
+        
     	message.channel.send('You participated successfull in this giveaway!');
+        participantsNumber++;
         message.channel.send(participantsNumber+'Participants');
 
-        participantsNumber
+        
   	}
 });
 
