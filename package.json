@@ -14,7 +14,7 @@
 
 
 
-  "main": "bot.py",
+  "main": "bot.js",
 
 
 
@@ -22,7 +22,7 @@
 
 
 
-    "start": "python bot.py"
+    "start": "node bot.js"
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-    "discord.py": "11.1.0",
+    "discord.js": "11.1.0",
 
 
 
