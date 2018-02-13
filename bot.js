@@ -36,7 +36,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === '!participate') {
+    if (message.content === '!participate_old') {
         
         
     	message.channel.send('You participated successfull in this giveaway!');
