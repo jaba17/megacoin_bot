@@ -17,7 +17,7 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
 
-    	message.channel.send('PLONG!');
+    	message.channel.send('PONG!');
 
   	}
 
