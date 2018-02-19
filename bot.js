@@ -15,6 +15,18 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
+    if (message.content === 'funktioniert xD') {
+
+    	message.channel.send('perfekt :')');
+
+  	}
+
+});
+
+
+
+client.on('message', message => {
+
     if (message.content === 'ping' || message.content === "Ping" || message.content === "PING") {
 
     	message.channel.send('PONG!');
