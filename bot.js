@@ -17,7 +17,7 @@ client.on('message', message => {
 
     if (message.content === 'funktioniert xD') {
 
-    	message.channel.send('perfekt :')');
+    	message.channel.send('perfekt :)');
 
   	}
 
