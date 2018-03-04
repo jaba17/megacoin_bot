@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.includes("discordapp.com/invite/") || message.includes("discord.gg/")) {
+    if (message.content == 'discordapp.com/invite/' || message.content == 'discord.gg/') {
         message.delete();
         message.channel.send("I didn't see that one :blush:");
 
