@@ -25,10 +25,11 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    var str1 = "/discordapp.com/invite//";
-    var str2 = "/discord.gg//";
+    var str1 = "discordapp.com/invite/";
+    var str2 = "discord.gg/";
 
-    if (message.search(str1) != -1 || message.search(str2) != -1) {
+    //if (message.search(str1) != -1 || message.search(str2) != -1) {
+    if(message.content === str1 || message.content === str2){
         message.delete(1);
         if(Math.random() > 0.5){
             message.channel.send("I didn't see that one :blush:");
