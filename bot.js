@@ -28,7 +28,7 @@ client.on('message', message => {
     var str1 = "discordapp.com/invite/";
     var str2 = "discord.gg/";
 
-	if(message.indexOf(str1)){
+	if(message.indexOf("discordapp.com/invite/")){
     //if (message.search(str1) != -1 || message.search(str2) != -1) {
     //if(message.content === str1 || message.content === str2){
         message.delete(1);
