@@ -27,8 +27,12 @@ client.on('message', message => {
 client.on('message', message => {
 
     if (message.content == 'discordapp.com/invite/' || message.content == 'discord.gg/') {
-        message.delete();
-        message.channel.send("I didn't see that one :blush:");
+        purge();
+        if(Math.random() > 0.5){
+            message.channel.send("I didn't see that one :blush:");
+        }else{
+            message.channel.send("Okay, I didn't see that one :wink:");
+        }
 
     }
 
