@@ -25,8 +25,10 @@ client.on('message', message => {
 
 
 client.on('message', message => {
+    var str1 = "discordapp.com/invite/";
+    var str1 = "discord.gg/";
 
-    if (message.match(/"discordapp.com/invite/"/i) || message.match(/"discord.gg/"/i)) {
+    if (message.match(/str1/g) || message.match(/str2/g)) {
         message.delete(1);
         if(Math.random() > 0.5){
             message.channel.send("I didn't see that one :blush:");
