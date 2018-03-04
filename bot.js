@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content == 'discordapp.com/invite/' || message.content == 'discord.gg/') {
+    if (message.includes("discordapp.com/invite/") || message.include("discord.gg/")) {
         message.delete(1);
         if(Math.random() > 0.5){
             message.channel.send("I didn't see that one :blush:");
