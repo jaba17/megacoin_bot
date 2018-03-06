@@ -53,7 +53,7 @@ client.on('message, message => {
 		    message.channel.send("Okay, I didn't see that one :wink:");
 		}
 	}
-}
+});
 
 client.on('message', message => {
 
