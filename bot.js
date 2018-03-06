@@ -4,6 +4,8 @@ const client = new Discord.Client();
 
 var participantsNumber = 0;
 
+var msg = message.content.toUpperCase();
+
 
 client.on('ready', () => {
 
@@ -24,7 +26,7 @@ client.on('message', message => {
 });
 
 
-client.on('message', message => {
+/*client.on('message', message => {
     var str1 = "discordapp.com/invite/";
     var str2 = "discord.gg/";
 
@@ -40,7 +42,18 @@ client.on('message', message => {
 
     }
 
-}); 
+}); */
+
+client.on('message, message => {
+	  if(msg.includes("discordapp.com/invite/") || msg.includes("discord.gg/"){
+		message.delete(1);
+		if(Math.random() > 0.5){
+		    message.channel.send("I didn't see that one :blush:");
+		}else{
+		    message.channel.send("Okay, I didn't see that one :wink:");
+		}
+	}
+}
 
 client.on('message', message => {
 
