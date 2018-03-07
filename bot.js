@@ -1,4 +1,4 @@
-#const Discord = require('discord.js');
+const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
@@ -41,7 +41,7 @@ client.on('message', message => {
 
 }); 
 
-client.on('message, message => {
+client.on('message', message => {
 	  if(msg.includes("discordapp.com/invite/") || msg.includes("discord.gg/"){
 		message.delete(1);
 		if(Math.random() > 0.5){
