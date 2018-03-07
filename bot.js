@@ -26,23 +26,20 @@ client.on('message', message => {
 });
 
 
-/*client.on('message', message => {
-    var str1 = "discordapp.com/invite/";
+client.on('message', message => {
     var str2 = "discord.gg/";
 
-	if(message.indexOf("discordapp.com/invite/")){
-    //if (message.search(str1) != -1 || message.search(str2) != -1) {
-    //if(message.content === str1 || message.content === str2){
-        message.delete(1);
-        if(Math.random() > 0.5){
-            message.channel.send("I didn't see that one :blush:");
-        }else{
-            message.channel.send("Okay, I didn't see that one :wink:");
-        }
+	if(message.includes("discordapp.com/invite/")){
+        	message.delete(1);
+        	if(Math.random() > 0.5){
+            		message.channel.send("I didn't see that one :blush:");
+        	}else{
+            		message.channel.send("Okay, I didn't see that one :wink:");
+        	}
 
     }
 
-}); */
+}); 
 
 client.on('message, message => {
 	  if(msg.includes("discordapp.com/invite/") || msg.includes("discord.gg/"){
