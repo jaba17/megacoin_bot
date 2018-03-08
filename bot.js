@@ -41,7 +41,7 @@ client.on('message', message => {
 
 }); 
 
-client.on('message', message => {
+/*client.on('message', message => {
 	  if(msg.includes("discordapp.com/invite/") || msg.includes("discord.gg/"){
 		message.delete(1);
 		if(Math.random() > 0.5){
@@ -51,7 +51,7 @@ client.on('message', message => {
 		}
 	}
 });
-
+*/
 client.on('message', message => {
 
     if (message.content === 'ping' || message.content === "Ping" || message.content === "PING") {
