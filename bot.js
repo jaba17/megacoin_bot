@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+/*const Discord = require('discord.js');
 const client = new Discord.Client();
 
 //var participantsNumber = 0;
@@ -51,7 +51,7 @@ client.on('message', message => {
 	}
 });
 */
-client.on('message', message => {
+/*client.on('message', message => {
 
     if (message.content === 'ping' || message.content === "Ping" || message.content === "PING") {
 
@@ -100,3 +100,4 @@ client.on('message', message => {
 // THIS  MUST  BE  THIS  WAY
 
 client.login(process.env.BOT_TOKEN);
+*/
