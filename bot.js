@@ -23,7 +23,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    var str2 = "discord.gg/";
 
 	if(message.includes("discordapp.com/invite/")){
         	message.delete(1);
