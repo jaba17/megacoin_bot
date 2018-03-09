@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
-
 const client = new Discord.Client();
 
-var participantsNumber = 0;
+//var participantsNumber = 0;
 
-var msg = message.content.toUpperCase();
+//var msg = message.content.toUpperCase();
 
 
 client.on('ready', () => {
