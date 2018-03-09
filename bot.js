@@ -22,7 +22,20 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+    var str2 = "discord.gg/";
 
+	if(message.includes("discordapp.com/invite/")){
+        	message.delete(1);
+        	if(Math.random() > 0.5){
+            		message.channel.send("I didn't see that one :blush:");
+        	}else{
+            		message.channel.send("Okay, I didn't see that one :wink:");
+        	}
+
+    }
+
+}); 
 
 client.on('message', message => {
 
