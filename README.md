@@ -1,2 +1,2 @@
 # megacoin_bot
-MegaCoin Bot for discord-chat
+MegaCoin Bot for discord chat
